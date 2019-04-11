@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Enquiry</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="index.html"><div class="logo"><img src="assets/images/logo2.png"></div></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse menulist" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-lg-auto">
+      <li class="nav-item violet active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item indigo">
+        <a class="nav-link" href="about.html">Gallery</a>
+      </li>
+      <li class="nav-item dropdown blue">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Curriculum
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Meal Plans</a>
+          <a class="dropdown-item" href="#">Holiday List</a>
+        </div>
+      </li>
+      
+      <li class="nav-item green">
+        <a class="nav-link" href="facilities.html">Facilities</a>
+      </li>
+      <li class="nav-item yellow">
+        <a class="nav-link" href="#">Our Team</a>
+      </li>
+      <li class="nav-item orange">
+        <a class="nav-link" href="enquiry.html">Enquiry</a>
+      </li>
+      <li class="nav-item red">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="bannerc">
+    <div class="content-wrapper">
+        <img src="assets/images/Contact%20Us%20banner.jpg">
+        <div class="contacttext"> <h3>Enquiry</h3> </div>
+    </div>
+</div>
+</header>
+    
+<div class="ask-text">
+    <h2>Ask Us Anything</h2>
+</div>
+
+<div class="contact-form">
+    <form id="contact-form">
+    <input name="name" type="text" class="form-controll" placeholder="Your Name" required>
+    <br>
+    <input name="email" type="email" class="form-controll" placeholder="Your Email" required><br>
+    <input name="phone" type="number" class="form-controll" placeholder="Your Contact Number" required><br>
+    
+    <textarea name="message" class="form-controll" placeholder="Message" row="5" required></textarea><br>
+    
+    <input type="submit" class="form-controll submit" onclick="mail()" value="SEND MESSAGE">
+    
+    
+    </form>
+    </div>
+    <script>
+        function mail() {
+            const name = document.getElementsByName('name')[0].value;
+            const message = document.getElementsByName('message')[0].value;
+            const phone = document.getElementsByName('phone')[0].value;
+            
+            const text = `mailto:devgupta2607@gmail.com?subject=New Form Submission&body= Name: ${name}
+Contact Number: ${phone}
+Message: ${message}`;
+            
+            window.open(text);
+        }
+    </script>
+    
+    </body>
+</html>

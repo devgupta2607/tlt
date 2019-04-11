@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    width: 100%;
+    height: auto;
+    background:url(assets/images/back2.jpg); 
+    background-repeat:repeat;
+}
+
+/****************Navbar **************************/
+header
+{
+    width: 100%;
+    position: relative;
+    top:0px;
+    z-index: 10;
+}
+
+.navbar {
+    background: #8884ef;
+}
+
+
+
+.logo img
+{
+    width: 25vh;
+    height: auto;
+    
+}
+
+.violet {
+    background: #de66ef;
+}
+.indigo {
+    background: #3434aa;
+}
+.blue {
+    background: #abaeff;
+}
+.green{
+    background: #39ff14;
+}
+.yellow{
+    background: #ffd300;
+}
+.orange{
+    background: #fd6a02;
+}
+.red{
+    background: #ff2400;
+}
+
+
+.navbar-brand
+{
+    width: 200px;
+}
+.nav-item
+{
+    font-weight: 600;
+    padding : 5px 10px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+.nav-item a
+{
+    color: white !important;
+}
+
+.nav-item:hover {
+    box-shadow: #232323 0px 0px 20px;
+}
+
+.menulist ul
+{
+    float: right;
+}
+
+a.dropdown-item
+{
+    color: darkblue !important;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .nav-item
+    {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+}
+
+/****************** carousel ********************/
+
+.slider
+{
+    position: relative;
+}
+
+.carousel {
+    height: 650px;
+    overflow: hidden;
+}
+
+/***************** Home Page ********************/
+.major-content
+{
+    margin-top: 20px;
+    margin-left: 2%;
+}
+.focus-text
+{
+    font-family: 'BioRhyme', serif;
+    color: darkgreen;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.major-content p
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+
+.value-content ul
+{
+    list-style-position: inside;
+}
+
+.value-content ul li
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.mission-content
+{
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 95%;
+    box-shadow: 10px 10px gray;
+    padding: 10px;
+}
+
+.vision-content
+{
+    background-color: #ffe5b4;
+    border-radius: 10px;
+    width: 95%;
+    box-shadow: 10px 10px gray;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.value-content
+{
+    background-color: #e7a1b0;
+    border-radius: 10px;
+    width: 95%;
+    box-shadow: 10px 10px gray;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.main-miss
+{
+    font-family: 'Cutive', serif;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+#red
+{
+    color: red;
+}
+
+#maroon
+{
+    color: #810541;
+}
+
+#violet
+{
+    color: #ff00ff;
+}
+
+#orange
+{
+    color: #f87217;
+}
+
+/******************** Contact Us *****************/
+
+.mapouter
+{
+    position:relative;
+    text-align:right;
+    height: 400px;
+}
+.gmap_canvas 
+{
+    overflow:hidden;
+    background:none!important;
+    height:400px;
+}
+/****************** Banner *******************/
+.content-wrapper
+{
+    height: 350px;
+}
+
+.content-wrapper img
+{
+    width: 100%;
+    height: 350px
+}
+
+.contacttext
+{
+    width: 100%;
+    position: relative;
+    top: -250px;
+    margin-top: 0%;
+}
+
+.contacttext h3
+{
+    text-align: left;
+    color: blueviolet;
+    font-size: 5vw;
+    margin-left: 10%;
+    font-family: 'Pacifico', cursive; 
+}
+
+/**************** Contact Page details *********/
+
+.details
+{
+    position: relative;
+    background-color: #0080FF;
+    padding-top: 3%;
+    margin-top: 10px;
+    transition: all 4s ease-in;
+}
+.details i
+{
+    font-size: 45px;
+    position: relative;
+    color: red;
+}
+.data
+{
+    margin-top: 5%;
+}
+
+#address, #mobile,#email-text
+{
+    font-size: 2rem;
+    display: inline;
+    line-height: 20px;
+    padding-left: 5px;
+    color: yellow;
+}
+.location, .phone,.email
+{
+    margin-left: 20px;
+}
+
+
+/************ Gallery ************************/
+
+
+
+/************** Enquiry Form ******************/
+.ask-text
+{
+    text-align: center;
+    color: #ff0090;
+    margin-top: 5%;
+    font-family: 'Lora', serif;
+}
+.ask-text h2
+{
+    font-size: 4.5vw;
+}
+
+.contact-form
+{
+    position: relative;
+    text-align: center;
+}
+
+form
+{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-controll
+{
+    width: 600px;
+    background : transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid blue;
+    color: red;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing : 1px;
+    margin-bottom: 16px;
+    
+}
+
+input
+{
+    height: 45px;
+}
+
+form .submit
+{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}

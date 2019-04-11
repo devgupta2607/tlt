@@ -1,0 +1,64 @@
+Dear parents,
+Get ready to send your little munchkins in our playgroup,pre-nursery day care. ??
+fully air conditioned Classes with air purifiers. 
+We also provide online CCTV facilities in ?? 
+Lots of creative activities,taekwondo, dance and many more.
+
+We have Different Activities for All age Groups 
+•Dance
+•Yoga
+•Aerobics 
+• Language Classes
+• Abacus 
+• Tuitions  and many more 
+
+Visit us at 'THE LEARNING TREE PLAY SCHOOL AND DAY CARE , C-103 ground floor Shakti Nagar extension Delhi-52
+Call us :9953068483, 9315666406
+thelearningtreeps@gmail.com 
+Regards.
+
+
+Begin your adventure here at 
+
+Our mission is to work together to build a safe, respectful and nurturing environment focused on maximising each child’s sense of wellbeing and acquisition of skills for life and learning (Belonging, Being and Becoming).
+
+
+Our vision is to create a warm and inclusive family atmosphere where all educators and families feel inspired to work together in a genuine partnership focused on providing a dynamic learning environment to ensure each child realises their full potential. Regardless of race, gender, age, ability, social status or family structure, our vision is to ensure each child is able to participate in all aspects of the program. We value the different gifts that each child brings to our community and embrace the many world cultures represented at Heritage. We celebrate our multicultural roots for the wealth of knowledge and understanding they bring to our community and Aboriginal and Torres Strait Islander cultures, identities and connections to community and country are valued.
+
+
+
+<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Curriculum
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Meal Plans</a>
+          <a class="dropdown-item" href="#">Holiday List</a>
+        </div>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#">Facilities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Our Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Enquiry</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+
+
+
+
+font-style: italic
+font-weight: 600;
+font-family: cronos-pro-n6,cronos-pro,sans-serif;
+letter spacing: 
+
