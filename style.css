@@ -104,14 +104,14 @@ a.dropdown-item
 }
 
 .carousel {
-    height: 650px;
+    height: ;
     overflow: hidden;
 }
 
 /***************** Home Page ********************/
 .major-content
 {
-    margin-top: 20px;
+    margin-top: 1%;
     margin-left: 2%;
 }
 .focus-text
@@ -147,6 +147,10 @@ a.dropdown-item
     width: 95%;
     box-shadow: 10px 10px gray;
     padding: 10px;
+    margin-right: 30px;
+    max-width: 850px;
+    margin-top: 30px;
+    margin-left: 10px
 }
 
 .vision-content
@@ -157,6 +161,7 @@ a.dropdown-item
     box-shadow: 10px 10px gray;
     padding: 10px;
     margin-top: 30px;
+    max-width: 850px;
 }
 
 .value-content
@@ -167,6 +172,7 @@ a.dropdown-item
     box-shadow: 10px 10px gray;
     padding: 10px;
     margin-top: 30px;
+    max-width: 1730px;
 }
 
 .main-miss
@@ -196,6 +202,18 @@ a.dropdown-item
 #orange
 {
     color: #f87217;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .vision-content
+    {
+        margin-left: 10px;
+    }
+    .mission-content
+    {
+        margin-left: 15px;
+    }
 }
 
 /******************** Contact Us *****************/
