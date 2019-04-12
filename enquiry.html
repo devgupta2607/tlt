@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Enquiry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
@@ -90,7 +91,7 @@
 Contact Number: ${phone}
 Message: ${message}`;
             
-            window.open(text);
+            window.open(encodeURI(text));
         }
     </script>
     
