@@ -104,9 +104,10 @@ a.dropdown-item
 }
 
 .carousel {
-    height: ;
     overflow: hidden;
 }
+
+
 
 /***************** Home Page ********************/
 .major-content
@@ -267,6 +268,7 @@ a.dropdown-item
     background-color: #0080FF;
     padding-top: 3%;
     margin-top: 10px;
+    padding-bottom: 3%;
     transition: all 4s ease-in;
 }
 .details i
@@ -381,4 +383,83 @@ form .submit:hover{
     font-size: 1.3rem;
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+/**************** Facilities *****************************/
+
+.f-box img
+{
+    max-height: 400px;
+    margin-top: 10px;
+}
+
+.f-box
+{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-left: 20px;
+    max-width: 600px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px gray;
+    
+}
+
+.fac-content
+{
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.f-box h4
+{
+    margin-top: 15px;
+    font-size: 2rem;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .f-box
+    {
+        max-width: 90%;
+    }
+}
+
+/****************** Footer *******************************/
+
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+    padding: 20px;
+}
+
+footer .row .col-md-6 a
+{
+    text-decoration: none;
+}
+
+footer .row .col-md-6 a i
+{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    background-color: #3b5998;
+    color: white;
+}
+
+footer .row .col-md-6 a h4
+{
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .developer-info
+    {
+        margin-top: 20px;
+    }
 }
