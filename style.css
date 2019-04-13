@@ -121,13 +121,13 @@ a.dropdown-item
 {
     font-family: 'BioRhyme', serif;
     color: darkgreen;
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-weight: 600;
 }
 
 .major-content p
 {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     font-weight: 500;
     
 }
@@ -139,7 +139,7 @@ a.dropdown-item
 
 .value-content ul li
 {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     font-weight: 500;
 }
 
@@ -181,7 +181,7 @@ a.dropdown-item
 .main-miss
 {
     font-family: 'Cutive', serif;
-    font-size: 1.8vw;
+    font-size: 2vw;
     text-align: center;
     font-weight: 600;
 
