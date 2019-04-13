@@ -318,7 +318,7 @@ a.dropdown-item
 }
 .ask-text h2
 {
-    font-size: 4.5vw;
+    font-size: 8vh;
 }
 
 .contact-form
@@ -336,6 +336,7 @@ form
 .form-controll
 {
     width: 600px;
+    max-width: 80%;
     background : transparent;
     border: none;
     outline: none;
@@ -451,17 +452,13 @@ footer .row .col-md-6 a
     text-decoration: none;
 }
 
-footer .row .col-md-6 a i
+footer .row .col-md-6 a img
 {
-    padding: 0.8vw;
-    font-size: 1.3vw;
-    background-color: #3b5998;
-    color: white;
+    max-width: 8vh;
 }
-
 footer .row .col-md-6 a h4
 {
-    font-size: 2vw;
+    font-size: 3vh;
 }
 
 
